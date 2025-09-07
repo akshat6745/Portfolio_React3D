@@ -5,12 +5,12 @@
   "type": "module",
   "homepage": "http://akshat6745.github.io/Portfolio_React3D",
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "vite",
+    "start": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d dist",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
